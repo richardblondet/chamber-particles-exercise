@@ -1,0 +1,17 @@
+{
+  "name": "changers-recruitment-exercise-1",
+  "version": "1.0.0",
+  "description": "Changers recruitment process, exercise 1",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "jasmine",
+    "jasmine": "jasmine"
+  },
+  "author": "Richard Blondet <developer@richardblondet.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "jasmine": "^3.5.0"
+  }
+}
