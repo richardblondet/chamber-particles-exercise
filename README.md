@@ -64,7 +64,7 @@ Animation.animate(3, "RR..LRL");
 At time 1, there are actually 4 particles in the chamber, but two are passing through
 each other at the 4th position.
 
-#####2) —
+##### 2) —
 ```
 Animation.animate(2, "LRLR.LRLR")
 // Returns:
@@ -129,7 +129,8 @@ Animation.animate(1, "LRRL.LR.LRR.R.LRRL.");
 
 ## Getting Started
 
-Check the answers by doing:
+Test answers in the `index.js` file. 
+
 ```sh
 > git clone https://github.com/richardblondet/chamber-particles-exercise.git chamber-particles
 
