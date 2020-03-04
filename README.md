@@ -138,6 +138,8 @@ Test answers in the `index.js` file.
 
 > npm install && npm start
 
+# to run tests
+> npm run test
 ```
 
 
