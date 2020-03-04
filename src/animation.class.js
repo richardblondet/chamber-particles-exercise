@@ -2,6 +2,7 @@
 
 const Chamber = require('./chamber.class');
 const Frame = require('./frame.class');
+const { EMPTY_POSITION } = require("../lib/constants");
 
 class Animation {
   chamber;
@@ -69,7 +70,7 @@ class Animation {
       if (particlesPassingThrough.length > 0) {
         frame.content[position] = particlesPassingThrough.map(p => p.type);
       } else {
-        frame.content[position] = ".";
+        frame.content[position] = EMPTY_POSITION;
       }
     });
 

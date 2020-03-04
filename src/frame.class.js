@@ -1,5 +1,7 @@
 // @ts-check
 
+const { MARKED_POSITION } = require('../lib/constants');
+
 class Frame {
   id;
   content;
@@ -22,7 +24,7 @@ class Frame {
       if (this.content.hasOwnProperty(key)) {
         const element = this.content[key];
         if (element instanceof Array) {
-          result.push("X");
+          result.push( MARKED_POSITION );
         } else {
           result.push(element);
         }
