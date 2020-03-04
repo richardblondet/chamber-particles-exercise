@@ -9,9 +9,9 @@ jasmine.execute();
 
 jasmine.onComplete(function(passed) {
   if(passed) {
-    const animation = new Animation();
-    const test = animation.animate(1,  "LRRL.LR.LRR.R.LRRL.");
-    console.log(test);
+    // const animation = new Animation();
+    // const test = animation.animate(1,  "LRRL.LR.LRR.R.LRRL.");
+    // console.log(test);
   }
   else {
     console.log('At least one spec has failed');
