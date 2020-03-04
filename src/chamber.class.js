@@ -59,8 +59,10 @@ class Chamber {
   }
 
   /**
+   * Observe particles and their speed
+   * @param {Number} speed 
    * 
-   * @param {*} speed 
+   * @returns {Chamber} chainnable
    */
   setParticles(speed) {
     this.toArray().forEach((element, index ) => {

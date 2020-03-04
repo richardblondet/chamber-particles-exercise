@@ -9,6 +9,7 @@ class Animation {
   result = [];
   timeInterval = 28;
   snapshots = [];
+
   /**
    * Animate
    * 
@@ -36,8 +37,6 @@ class Animation {
     let snapshot = this.takeSnapshot(particles);
 
     while (!/^[.]{1,}$/g.test(snapshot)) {
-      // Checking snapshots
-      // console.log("snapshot", snapshot, /^[.]{1,}$/g.test(snapshot));
       
       // Make particles travel
       particles.forEach((particle) => {
@@ -48,6 +47,7 @@ class Animation {
       snapshot = this.takeSnapshot(particles);
     }
 
+    // Return expected result
     return this.getFrames();
   }
 
